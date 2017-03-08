@@ -1,3 +1,5 @@
+# 90% of this code is frmo here: http://pythonhosted.org/pyftpdlib/tutorial.html#building-a-base-ftp-server
+
 from pyftpdlib.authorizers import DummyAuthorizer
 from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
